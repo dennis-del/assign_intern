@@ -1,0 +1,46 @@
+/* Center the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style the input container */
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background: white;
+  }
+  
+  /* Style the input field */
+  .input-field {
+    font-size: 18px;
+    padding: 8px;
+    width: 250px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: transparent;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Success message styling */
+  .success-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
